@@ -13,7 +13,7 @@ model = pkl.load(input_md)
 st.title('Predict Gender Based on Vietnamese Names')
 
 st.header('Enter a name')
-text = st.text_area('', '')
+text = st.text_area('Enter a name', '')
 
 if text != '':
   if st.button('Predict'):
